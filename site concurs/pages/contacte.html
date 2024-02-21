@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte</title>
+
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com\ajax\libs\font-awesome\5.15.2\css\all.min.css"/>
+    <link rel="icon" href="../images/titlulog.png" />
+
+  
+    <link rel="stylesheet" href="css/lightbox.css" />
+  
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  
+    <script src="../js/main.js" defer></script>
+    <script src="../js/lightbox.js"></script>
+
+    <link  src="https://pediatrica.md/wp-content/uploads/2020/06/phone.png">
+</head>
+<body>
+  <header>
+
+    <a href="index.html">
+      <img class="logo" src="../images/logo2.png">
+    </a>
+
+    <navbar class="nav mobile" id="navbar">
+      <div>
+      <a href="../index.html">Despre noi</a>
+      <a href="servicii.html">Servicii prestate</a>
+      <a href="contacte.html">Contacte</a> </div>
+      
+      <button class="menu-button">☰</button>
+      <div class="menu-items">
+          <a href="../index.html">Despre</a>
+          <a href="servicii.html">Servicii</a>
+          <a href="contacte.html">Contacte</a>
+      </div>
+    </navbar>
+  </header>
+    <main>
+    <section id="contacte">
+        <h1 class="centered">Contacte</h1>
+  
+        <div class="row">
+          <div class="col-50 contacte-info" >
+          <b>Telefon</b>
+          <a href="tel:+37379602972">+373 79602972</a>
+  
+          <br/>
+  
+          <b>Adresa: </b>
+          <span>Str. Flutura</span>
+  
+          <br/>
+  
+           <b>E-mail:</b>
+           <a href="mailto:skodadn009@gmail.com">betralis_srl24@gmail.com</a>
+           
+           <br/>
+           <div class="formular-container">
+            <form id="formular">
+              <hr3>Lasă un mesaj</hr3>
+              <input type="text" id="nume" placeholder="Nume" required>
+              <br>
+              <input type="email" id="email" placeholder="Email" required>
+              <br/>
+
+             <select id="service">
+              <option value="var1">Mentenanță</option>
+              <option value="var2">Montare aparat condiționat</option>
+              <option value="var3">Mentenanță aparat condiționat</option>
+            
+             </select>
+             <br/>
+             
+              <textarea id="mesaj" rows="4" placeholder="Mesaj" required></textarea>
+             <input id="transmite" type="button" value="Transmite" onclick="send()">
+           </div>
+  
+          </div>
+          <div class="col-50 ">
+          <iframe  
+          
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d339.2319168575392!2d28.822439895256032!3d47.14110019301824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cbd9e4ffedf693%3A0xae466e4cef77d6ba!2sBetralis%20SRL!5e0!3m2!1sro!2s!4v1707324254056!5m2!1sro!2s" 
+          class="harta" style="border:10;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+  
+  
+        </div>
+      </section>
+    </main>
+     
+    <footer>
+      <div>Betralis SRL ©</div>
+      <div id="an">2024</div>
+
+  </footer>
+
+</body>
+</html>
